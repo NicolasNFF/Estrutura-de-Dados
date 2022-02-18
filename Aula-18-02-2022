@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int main(void)
+{
+    int a;
+    long int b;
+    short int c;
+
+    printf("\n Inteiro: %10i",sizeof(a));
+    printf("\n Long: %10i",sizeof(b));
+    printf("\n Short: %10i",sizeof(c));
+
+    
+}
