@@ -8,10 +8,14 @@ int main(void)
     int a;
     long int b;
     short int c;
+    float d;
+    double e;
 
     printf("\n Inteiro: %10i",sizeof(a));
     printf("\n Long: %10i",sizeof(b));
     printf("\n Short: %10i",sizeof(c));
+    printf("\n Float: %10i",sizeof(d));
+    printf("\n Double: %10i",sizeof(e));
 
-    
+    exit(0);
 }
